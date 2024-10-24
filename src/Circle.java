@@ -22,7 +22,7 @@ public class Circle {
     public static void circumference(double pi,int radius){
         System.out.println(pi+"*"+2+"*"+radius+"="+(pi*2*radius));
     }
-    public void area(){
+    public static void area(double pi , int radius){
         System.out.println(pi+"*"+radius+"*"+radius+"="+(pi*radius*radius));
     }
 }
